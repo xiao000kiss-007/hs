@@ -65,8 +65,8 @@ koaRouter.use('/api',jwt({secret:'vue-koa-kiss'}),api.routes()) // 所有走/api
 app.use(koaRouter.routes()); // 将路由规则挂载到Koa上
 app.use(koaRouter.allowedMethods());
 
-app.listen(8889,() => {
-  console.log('Koa is listening in 8889');
+app.listen(80,() => {
+  console.log('Koa is listening in 80');
 });
 
 module.exports = app;

@@ -9,16 +9,16 @@ mongoose.connect(DbConfig.DbUrl+"/"+DbConfig.DbBase);
 const db = mongoose.connection;
  
 // 连接失败
-db.on("error", console.error.bind(console,"数据库链接失败")
+db.on("error", console.error.bind(console,"DB is error")
 )
 // 连接成功
 db.on("open", function(){
-    console.log("数据库链接成功");
+    console.log("DB is Done!");
 });
  
 // 断开数据库
 db.on("disconnected", function(){
-    console.log("数据库断开");
+    console.log("DB is Out line");
 })
  
 // 将mongoose推出
