@@ -1,5 +1,5 @@
 <script>
-    const baseUrl = 'http://192.168.0.127:8889'
+    const baseUrl = 'http://47.107.142.234:80'
 export default {
     baseUrl 
 }
