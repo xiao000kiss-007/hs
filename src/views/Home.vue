@@ -9,7 +9,7 @@
       </el-col>
     </el-row>
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="网站建设中。。。   深圳市恒深财务有限公司 版权所有 2018-2019 粤ICP备18024655号-1 粤公网安备 44030902000294号"/>
+    <HelloWorld msg="网站建设中。。。"/>
   </div>
 </template>
 
