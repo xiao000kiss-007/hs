@@ -1,5 +1,6 @@
+
 <template>
-  <div class="home">
+  <div class="login">
     <el-row class="nav">
       <el-col :xs="24" :sm="14">
         <Nav></Nav>
@@ -8,23 +9,23 @@
         <Sgin></Sgin>
       </el-col>
     </el-row>
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Login></Login>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import Login from "@/components/Login.vue";
 import Nav from "@/components/Nav.vue";
 import Sgin from "@/components/Sgin.vue";
 
 export default {
-  name: "home",
   components: {
-    HelloWorld,
+    Login,
     Nav,
     Sgin
   }
 };
 </script>
+
+<style lang="stylus" scoped>
+</style>

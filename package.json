@@ -5,9 +5,23 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node app.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "element-ui": "^2.4.9",
+    "jsonwebtoken": "^8.4.0",
+    "koa": "^2.6.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.5.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.3.9",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },
@@ -17,6 +31,8 @@
     "@vue/cli-service": "^3.0.5",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
